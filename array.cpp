@@ -1,5 +1,3 @@
-
-
 // CPP program to determine if array arr[] 
 // can be split into three equal sum sets. 
 #include <iostream> 
@@ -66,16 +64,7 @@ int main()
 	std::cin.ignore(); //Discard first symbol in stream (our X) 
 	
 	int n = sizeof(numbers)/sizeof(numbers[0]);
-	printTwoParts(numbers, n); 
-   
-	 //cout << "Size " << size ;
-
-	 //cout << "The numbers are: ";
-
-	 //  print array elements
-     //for (int n = 0; n < size; n++) {
-         //cout << numbers[n] << "  ";
-	 //}
+	printTwoParts(numbers, n);
 
 	return 0;
 }
